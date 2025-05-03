@@ -16,6 +16,7 @@ nav {
     padding: 40px;
     position: fixed;
     list-style: none;
+    
 }
 
 .harf {
@@ -35,6 +36,8 @@ nav ul li{
     gap: 30px;
     font-size: 40px;
     color: #fca741;
+text-transform: capitalize;
+list-style: none;
 }
 nav ul a:hover{
     color: #884f09;
@@ -525,4 +528,10 @@ color: rgb(255, 106, 0);
 .boxoh span:hover{
 text-decoration: underline;
 
+}
+.tel .ip{
+    display: flex;
+}
+.tel .ip {
+gap: 50px;
 }
